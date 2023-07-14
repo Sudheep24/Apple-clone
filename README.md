@@ -1,39 +1,165 @@
 ﻿<!DOCTYPE html>
-
 <html>
 <head>
-
-    <title>login</title>
-    <link href="login.css" rel="stylesheet" />
+    <title>Apple</title>
+    <link rel="stylesheet" href="StyleSheet1.css">
+    
     <script src="https://kit.fontawesome.com/56f8f15525.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section>
-        <div class="form-box">
-            <div class="form-value">
-                <form class="login_form" action="apple.html" method="post" name="form" onsubmit="return validated()">
-                    <h2>Login</h2>
-                    <div class="inputbox">
-                        <ion-icon name="mail-outline"></ion-icon>
-                        <input type="email" name="email" required />
-                        <label for="" >Email</label>
-                    </div>
-                    <div class="inputbox">
-                        <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="password" name="password " required />
-                        <label for=" ">Password</label>
-                       
-                        <button>Login</button>
-                        <div class="register">
-                            <p>Don't have a acoount</p>
-                        </div>
-                    </div>
-                </form>
-            </div>
+    <!-- Navbar -->
+    
+    <nav>
+        <ul>
+            <li><a href="https://www.apple.com/in/"><i class="fa-brands fa-apple" style="color: #ffffff;"></i></li></a>
+            <li><a href="https://www.apple.com/in/store">Store</a></li>
+            <li><a href="https://www.apple.com/in/mac/">Mac</a></li>
+            <li><a href="https://www.apple.com/in/ipad/">iPad</a></li>
+            <li><a href="https://www.apple.com/in/iphone/">iPhone</a></li>
+            <li><a href="https://www.apple.com/in/watch/">Watch</a></li>
+            <li><a href="#https://www.apple.com/in/airpods/">AirPods</a></li>
+            <li><a href="https://www.apple.com/in/tv-home/">TV & Home </a></li>
+            <li><a href="https://www.apple.com/in/entertainment/">Entertainment </a></li>
+            <li><a href="https://www.apple.com/in/entertainment/">Accessories </a></li>
+            <li><a href="https://www.apple.com/in/shop/goto/buy_accessories">Support</a></li>
+            <li><a href="https://www.apple.com/in/search"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></li></a>
+            <li><a href="https://www.apple.com/in/shop/goto/bag"><i class="fa-solid fa-bag-shopping" style="color: #ffffff;"></i></li></a>
+
+        </ul>
+    </nav>
+       <nav class="discount">
+        <div>Get up to ₹8000 instant savings on selected products with eligible HDFC Bank cards.* Shop now</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="iphone14pro">
+        <div class="iphone14pro">
+            <h1>iPhone 14 Pro</h1>
+            <p>Pro.Beyond.</p>
+
+            <p>   <a href="https://www.apple.com/iphone-14-pro/">learn more ></a>  </a> <a href="https://www.apple.com/shop/buy-iphone/iphone-14-pro">    Buy ></a></p>
+
         </div>
     </section>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="valid.js"></script>
+    <section id="iphone14pro">
+        <center>
+            <div class="iphone14pro">
+                <img src="iphone14pro.png" />
+        </center>
+        </div>
+    </section>
+
+    <!-- iphone 14 -->
+    <section id="iphone14">
+        <div class="iphone14">
+            <h2>iPhone 14</h2>
+            <p>Wonderfull.</p>
+            <p><a href="https://www.apple.com/iphone-14/">Learn more ></a> <a href="https://www.apple.com/iphone-14/">Buy ></a>  </p>
+        </div>
+        <section id="iphone14">
+            <center>
+                <div class="iphone14">
+                    <img src="iphone14.jpeg" />
+            </center>
+            </div>
+
+            <!-- IWaTCH-->
+
+            <section id="watch">
+                <div class="watch">
+                    <h2>Watch</h2>
+                    <h1>SERIES 8</h1>
+                    <p>A Healty leap ahead.</p>
+                    <p><a href="https://www.apple.com/apple-watch-series-8/">Learn more ></a> <a href="https://www.apple.com/shop/buy-watch/apple-watch">Buy ></a>  </p>
+                </div>
+                <section id="watch">
+                    <center>
+                        <div class="watch">
+                            <img src="watch.jpg" />
+                    </center>
+                    </div>
+
+
+                    <!-- grid-->
+                    <div class="grid-container">
+
+
+                        <div class="grid-item">
+                            <a href="https://www.apple.com/shop/trade-in"><img src="tradein.jpg" width="820" height="600" alt="image"></a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="https://developer.apple.com/wwdc23/"><img src="2k23.jpg" width="820" height="600" alt="image"></a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="https://www.apple.com/ipad-10.9/"><img src="ipad.jpg" width="820" height="600" alt="image"></a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="https://www.apple.com/macbook-pro-14-and-16/"><img src="mac.jpg" width="820" height="600" alt="image"></a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="https://www.apple.com/environment/"><img src="envi.jpg" width="820" height="600" alt="image"></a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="https://www.apple.com/apple-card/"><img src="card.jpg" width="820" height="600" alt="image"></a>
+                        </div>
+                    </div>
+
+                    <!--slider-->
+                     <div id="frame">
+        <input type="radio" name="frame" id="frame1" checked />
+        <input type="radio" name="frame" id="frame2" />
+        <input type="radio" name="frame" id="frame3" />
+        <input type="radio" name="frame" id="frame4" />
+        <div id="slides">
+            <div id="overflow">
+                <div class="inner">
+                    <div class="frame frame_1">
+                        <div class="frame-content">
+                            <img src="shrinking.jpg">
+                        </div>
+                    </div>
+                    <div class="frame frame_2">
+                        <div class="frame-content">
+                            <img src="baseball.jpg">
+                        </div>
+                    </div>
+                    <div class="frame frame_3">
+                        <div class="frame-content">
+                            <img src="ghosted.jpg">
+                        </div>
+                    </div>
+                    <div class="frame frame_4">
+                        <div class="frame-content">
+                            <img src="bigdoor.jpg">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="controls">
+            <label for="frame1"></label>
+            <label for="frame2"></label>
+            <label for="frame3"></label>
+            <label for="frame4"></label>
+        </div>
+        <div id="bullets">
+            <label for="frame1"></label>
+            <label for="frame2"></label>
+            <label for="frame3"></label>
+            <label for="frame4"></label>
+        </div>
+    </div>
+                    
+                    <!-- Footer -->
+                    <footer>
+
+                        <p>&copy; 2023 Sudheep.</p>
+                        <span>1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.</span>
+                    
+                        </footer>
+
+
+
 </body>
 </html>
