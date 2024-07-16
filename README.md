@@ -1,1 +1,2 @@
-https://the-dynasty.github.io/Apple-clone-Yip.gtihub.io/
+[https://sudheep24.github.io/Apple-clone/
+](https://sudheep24.github.io/Apple-clone/)
